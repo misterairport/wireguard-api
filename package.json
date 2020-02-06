@@ -1,0 +1,23 @@
+{
+  "name": "wireguard-api",
+  "preferGlobal": true,
+  "version": "0.1.2",
+  "repository": "https://github.com/misterairport/wireguard-api",
+  "description": "An API wrapper for Wireguard® Linux servers, written in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MisterAirport",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chalk": "^3.0.0",
+    "mkdirp": "^0.5.1",
+    "nconf": "^0.10.0",
+    "ora": "^4.0.3"
+  },
+  "license": "AGPL-3.0",
+  "bin": {
+    "wireguard-api": "./index.js"
+  }
+}
